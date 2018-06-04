@@ -1,0 +1,265 @@
+html{
+  font-size: 62.5%;
+
+}
+
+body{
+  font-family: "gilroy";
+
+}
+
+header img{
+ height: 5vh;
+ width: 15vw;
+}
+
+
+
+nav a{
+  font-size: 1.6rem;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+}
+
+a.zwart{
+	background-color: black;
+	color: white;
+}
+
+header{
+  position: relative;
+  margin-top: 10px;
+}
+
+.links {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.sliders img{
+
+	height: 40vh;
+  width: 100vw;
+}
+
+.hoofding h2{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.hoofding p{
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+}
+
+.batchy h2{
+  text-align: left;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.batchy p{
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+}
+
+input[type="submit"]  {
+    font-family: helvetica;
+    font-size: 1.2em;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+    background-color: black;
+		font-weight: bold;
+    padding: 8px 5px;
+    display: block;
+		border: none;
+    color: white;
+		padding: 8px 5px;
+		width: 200px;
+}
+
+input:hover{
+  background-color: red;
+}
+
+
+.watwedoen img{
+  transition: transform 0.5s;
+}
+
+.watwedoen img:hover{
+  transform: scale(1.05);
+}
+.artist h2{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.artist p{
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+}
+
+h3{
+		font-weight: bold;
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 15px;
+}
+.figuur1 img{
+	margin-top: 25px;
+	height: 50vh;
+  width: 100vw;
+}
+
+.figuur2 img{
+	margin-top: 10px;
+	height: 50vh;
+  width: 100vw;
+}
+
+.figuur3 img{
+	margin-top: 10px;
+	height: 50vh;
+  width: 100vw;
+}
+
+.figuur4 img{
+	margin-top: 25px;
+	height: 40vh;
+  width: 100vw;
+}
+.label h2{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.label p{
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+
+.label img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: 3vh;
+	width: 10vw;
+}
+.shop h2{
+	text-align: center;
+	font-size: 3rem;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.shop p{
+	text-align: center;
+	margin-top: 10px;
+	line-height: 1.7rem;
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+
+.onderaan a{
+	float: right;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.watwedoen p{
+  font-size: 1.3rem;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+@supports (grid-area: auto) {
+
+@media (min-width: 1200px) {
+	body{
+		max-width: 1400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+  .hoofding{
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 200px;
+  }
+
+header img{
+	height: 5vh;
+  width: 7vw;
+}
+
+
+	.watwedoen{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-gap: 1px;
+
+  }
+
+  .watwedoen p{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 300px;
+  }
+
+  .figuur1 img{
+    grid-column: 1;
+		width: 20vw;
+    height: 30vh;
+
+  }
+
+  .figuur2 img{
+    margin-top: 25px;
+    grid-column: 2;
+    width: 20vw;
+    height: 30vh;
+  }
+
+  .figuur3 img{
+    margin-top: 25px;
+    grid-column: 3;
+    width: 20vw;
+    height: 30vh;
+  }
+
+  .figuur4 img{
+  grid-column: 4;
+  width: 20vw;
+  height: 30vh;
+  }
+
+
+}
+}
